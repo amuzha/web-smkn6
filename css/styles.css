@@ -789,7 +789,7 @@ input[type="checkbox"] {
 .header {
   position: relative;
   padding-top: 8rem;
-  padding-bottom: 40%;
+  padding-bottom: 15%;
   background: linear-gradient(
       to bottom right,
       rgba(0, 0, 0, 0.8),
@@ -798,6 +798,10 @@ input[type="checkbox"] {
     url("../images/header-background.jpg") center center no-repeat;
   background-size: cover;
   text-align: center;
+}
+
+.text-container {
+  margin-top: 2rem;
 }
 
 .header .countdown {
@@ -857,16 +861,6 @@ input[type="checkbox"] {
 .header .btn-outline-lg:hover {
   background-color: #fff;
   color: #333;
-}
-
-.header .outer-container {
-  position: absolute;
-  right: 0;
-  bottom: -2rem;
-  left: 0;
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
 }
 
 .header .slider-container {
@@ -1742,10 +1736,6 @@ a:hover.back-to-top {
     margin-left: 0;
   }
 
-  .header .outer-container {
-    bottom: -4rem;
-  }
-
   .header .swiper-button-prev {
     left: 1.5rem;
   }
@@ -2067,12 +2057,7 @@ a:hover.back-to-top {
 @media (min-width: 1200px) {
   /* Header */
   .header {
-    padding-bottom: 31rem;
-  }
-
-  .header .outer-container {
-    width: 69.375rem;
-    bottom: -6rem;
+    padding-bottom: 8rem;
   }
 
   .header .swiper-container {
