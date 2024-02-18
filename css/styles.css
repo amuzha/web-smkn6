@@ -800,6 +800,11 @@ input[type="checkbox"] {
   text-align: center;
 }
 
+.header .img-fluid {
+  height: 200px;
+  object-fit: cover;
+}
+
 .text-container {
   margin-top: 2rem;
 }
@@ -2062,6 +2067,11 @@ a:hover.back-to-top {
 
   .header .swiper-container {
     width: 100%;
+  }
+
+  .header .img-fluid {
+    height: 500px;
+    object-fit: cover;
   }
 
   .header .swiper-button-prev {
